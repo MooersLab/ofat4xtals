@@ -55,11 +55,19 @@ It is much higher than you might think.
 In addition, it can take about 12-20 hours of tedious editing an input CSV file to read one of these designs by the liquid handling robot.
 Using a liquid handling robot once the csv file is in working order and can be used repeatedly after minor modification for each experimental design might yield some efficiencies.
 However, for small volumes, one has to worry about evaporative losses during the assembly of the solutions.
-These are the main sources of variation in the final volumes rather than pipetting errors.
+These are the primary sources of variation in the final volumes rather than pipetting errors.
+
+The spreadsheets are provided in pairs: treatments ordered and treatments randomized.
+
+
+<p align="center"><img src="./images/Ordered6Factoprs.png" alt="HTML5 Icon" style="width:600px;"></p>
+
+<p align="center"><img src="./images/Randomized6Factoprs.png" alt="HTML5 Icon" style="width:600px;"></p>
+
 
 The treatments within the replicas are randomly assigned.
 Each of those experiments is treated as an independent experiment, so there is no randomization across the experiments.
-This latter feature eases the setting up of the crystallization solutions within a OFAT experiment because only the volume of one factor and the volume of the water vary.
+This latter feature eases the setting up of the crystallization solutions within an OFAT experiment because only the volume of one factor and the volume of the water vary.
 
 The protocol for re-randomization of the treatments in an experiment with no replica is as follows:
 
