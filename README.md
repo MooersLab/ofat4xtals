@@ -1,4 +1,4 @@
-# Varying One-Factor-at-a-Time (OFAT) Experimental Designs for Crystallization Experiments
+# Varying One-Factor-at-a-Time (OFAT) Experimental Designs
 
 ![Version](https://img.shields.io/static/v1?label=ofat4xtals&message=0.0&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -6,6 +6,9 @@
 
 ## Purpose
 This repository contains Excel spreadsheets for applying OFAT Designs (OFATs) to the size optimization of crystals of biological macromolecules (proteins and nucleic acids).
+these spreadsheets can be adapted to other biochemical experiments as explained below.
+They can also be adapted to stochastic computer experiments.
+
 Crystal size is generally proportional to its diffraction power, provided the crystal is not internally disordered and properly cryoprotected.
 Crystallographers seek large crystals to obtain high-resolution data for high-quality structures.
 
