@@ -109,7 +109,7 @@ The recipes for categorical factors, like buffer identity, have to be entered by
 The column on the left below is for a continuous factor.
 The column on the right is for a categorical factor.
 
-<p align="center"><img src="./images/ContinuousLeftCategoricalRight.png" alt="HTML5 Icon" style="width:1000px;"></p>
+<p align="center"><img src="./images/ContinuousLeftCategoricalRight.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 Pairs of columns can be selected in Excel and fit to the page for printing. 
 One 6 x 4 experiment will require 3 laboratory notebook pages.
