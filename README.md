@@ -60,9 +60,9 @@ These are the primary sources of variation in the final volumes rather than pipe
 The spreadsheets are provided in pairs: treatments ordered and treatments randomized.
 
 
-<p align="center"><img src="./images/Ordered6Factoprs.png" alt="HTML5 Icon" style="width:600px;"></p>
+<p align="center"><img src="./images/Ordered6Factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
-<p align="center"><img src="./images/Randomized6Factoprs.png" alt="HTML5 Icon" style="width:600px;"></p>
+<p align="center"><img src="./images/Randomized6Factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 
 The treatments within the replicas are randomly assigned.
