@@ -64,9 +64,11 @@ In the case of no replicas, the columns are labeled by the factor being varied.
 **Ordered:**
 <p align="center"><img src="./images/Ordered6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
-<p align="center"><img src="./images/Randomized6facotors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 **Randomized:**
+<p align="center"><img src="./images/Randomized6facotors.png" alt="HTML5 Icon" style="width:600px;"></p>
+
+
 The treatments within the replicas are randomly assigned.
 Each of those experiments is treated as an independent experiment, so there is no randomization across the experiments.
 This latter feature eases the setting up of the crystallization solutions within an OFAT experiment because only the volume of one factor and the volume of the water vary.
