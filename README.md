@@ -58,11 +58,12 @@ However, for small volumes, one has to worry about evaporative losses during the
 These are the primary sources of variation in the final volumes rather than pipetting errors.
 
 The spreadsheets are provided in pairs: treatments ordered and treatments randomized.
+In the case of no replicas, the columns are labeled by the factor being varied.
 
 
 <p align="center"><img src="./images/Ordered6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
-<p align="center"><img src="./images/Randomized6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
+<p align="center"><img src="./images/Randomized6facotors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 
 The treatments within the replicas are randomly assigned.
