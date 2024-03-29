@@ -25,20 +25,20 @@ In contrast, the gradients in the factors are close to zero at the peak which ex
 ## What are OFAT experiments
 These OFAT experiments involve holding all factors constant except for one while it is varied over several factor levels. 
 We recommend starting the variation at 0 to test whether a factor's presence or absence influences crystal growth. 
-We also recommend using four factor levels, including the zero level, so that the three points with the factor present can be used to assess whether the response is linear or curvilinear.
+We also recommend using four factor-levels, including the zero level, so that the three points with the factor present can be used to assess whether the response is linear or curvilinear.
 
 Most factors are expected to have a concave curvilinear effect on the crystallization of biological molecules.
 The effect might appear linear if the range of tested factor levels is narrow.
 In this case, you might be exploring only the rising or falling shoulder of a quadratic response.
 
 Four levels is a minimal approach to detecting the curvilinear response.
-Five or six levels might be a more robust approach to characterizing of the curvilinear nature of the response.
+Five or six levels might be a more robust approach to characterizing the curvilinear nature of the response.
 
 This is about all you can expect out of these kinds of experiments.
 You may propagate your lead when testing factors that do not influence crystallization.
 This might be a side benefit if the crystallization conditions are close to the optimum.
 
-These OFAT experiments are a horrible way to find the optimal conditions when serially applying them.
+These OFAT experiments are a horrible way to find the optimal conditions when serially applied.
 They should be limited to exploring a factor's nature regarding whether its presence has an effect and detecting a curvilinear response.
 This information can then be used to select the factors and their levels in full factorial, incomplete factorial, or optimal experimental designs.
 These latter designs can detect at least two-way interactions in addition to quadratic responses.
@@ -48,11 +48,12 @@ The typical practice is not to create replica crystallization experiments to sav
 That is, the standard practice is to do exploratory trials rather than statistically valid experiments that return an assessment of the variation.
 
 These spreadsheets contain replica OFAT experiments to assess the variation in the results.
-The sources of the variation include stochastic errors outside the experimenter's control and systematic experimental errors associated with assembling the stock solutions and dispensing them.
+The sources of the variation include stochastic errors outside the experimenter's control and systematic experimental errors associated with assembly of the stock solutions and dispensing them.
 
 While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation.
-It is much higher than you might think.
-In addition, it can take about 12-20 hours of tedious editing an input CSV file to read one of these designs by the liquid handling robot.
+It may be much higher than you expected.
+In addition, it can take about 12-20 hours of tedious editing of an input CSV file to read one of these designs by the liquid handling robot.
+
 Using a liquid handling robot once the csv file is in working order and can be used repeatedly after minor modification for each experimental design might yield some efficiencies.
 However, for small volumes, one has to worry about evaporative losses during the assembly of the solutions.
 These are the primary sources of variation in the final volumes rather than pipetting errors.
@@ -60,12 +61,12 @@ These are the primary sources of variation in the final volumes rather than pipe
 The spreadsheets are provided in pairs: treatments ordered and treatments randomized.
 In the case of no replicas, the columns are labeled by the factor being varied.
 
-
+**Ordered:**
 <p align="center"><img src="./images/Ordered6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 <p align="center"><img src="./images/Randomized6facotors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
-
+**Randomized:**
 The treatments within the replicas are randomly assigned.
 Each of those experiments is treated as an independent experiment, so there is no randomization across the experiments.
 This latter feature eases the setting up of the crystallization solutions within an OFAT experiment because only the volume of one factor and the volume of the water vary.
