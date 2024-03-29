@@ -112,11 +112,12 @@ The column on the right is for a categorical factor.
 <p align="center"><img src="./images/ContinuousLeftCategoricalRight.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 Pairs of columns can be selected in Excel and fit to the page for printing. 
-One 6 x 4 experiment will require 3 laboratory notebook pages.
+One 6 x 4 experiment will require three laboratory notebook pages.
 
 ## Use outside of crystallization experiments
-These expendable designs can be adapted to other biochemical experiments involving aqueous solutions where water is the dominant component.
-When water is not the dominant component, experimental designs for mixtures must be used.
+These experimental designs can be adapted to other biochemical experiments involving aqueous solutions where water is the dominant molar component.
+When water is not the dominant component in a mixture, experimental designs for mixtures must be used.
+
 One could also envision adapting these experimental designs to computer experiments where the results are stochastic in nature.
 
 
