@@ -39,7 +39,7 @@ You may propagate your lead when testing factors that do not influence crystalli
 This might be a side benefit if the crystallization conditions are close to the optimum.
 
 These OFAT experiments are a horrible way to find the optimal conditions when serially applying them.
-They should be limited to exploring a factor's nature in terms of whether its presence has an effect and detecting a curvilinear response.
+They should be limited to exploring a factor's nature regarding whether its presence has an effect and detecting a curvilinear response.
 This information can then be used to select the factors and their levels in full factorial, incomplete factorial, or optimal experimental designs.
 These latter designs can detect at least two-way interactions in addition to quadratic responses.
 
@@ -60,9 +60,9 @@ These are the primary sources of variation in the final volumes rather than pipe
 The spreadsheets are provided in pairs: treatments ordered and treatments randomized.
 
 
-<p align="center"><img src="./images/Ordered6Factors.png" alt="HTML5 Icon" style="width:600px;"></p>
+<p align="center"><img src="./images/Ordered6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
-<p align="center"><img src="./images/Randomized6Factors.png" alt="HTML5 Icon" style="width:600px;"></p>
+<p align="center"><img src="./images/Randomized6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 
 The treatments within the replicas are randomly assigned.
