@@ -88,7 +88,7 @@ If you need a design with a run configuration different from a 4 x 6 array, plea
 
 A design matrix with the codings of the factor levels is applied to the user-entered concentration ranges.
 
-<p align="center"><img src="./images/CodingsTreatments.png" alt="HTML5 Icon" style="width:800px;"></p>
+<p align="center"><img src="./images/CodingsTreatments.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
 ## Use outside of crystallization experiments
 These expendable designs can be adapted to other biochemical experiments involving aqueous solutions where water is the dominant component.
