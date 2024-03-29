@@ -77,12 +77,18 @@ The protocol for re-randomization of the treatments in experiment with no replic
 It takes about 3 minutes to edit a spreadsheet to customize it for a new crystallization experiment.
 The cells shaded light gray require editing.
 
-<p align="center"><img src="./images/words6.png" alt="HTML5 Icon" style="width:612px;height:312px;"></p>
+<p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:612px;height:312px;"></p>
 
 
 These spreadsheets ease applying OFATs in laboratory experiments.
 These spreadsheets could also be adapted to other laboratory and field experiments.
 If you need a design with a run configuration different from a 4 x 6 array, please post an issue.
+
+## Codings and treatments
+
+A design matrix with the codings of the factor levels is applied to the user-entered concentration ranges.
+
+<p align="center"><img src="./images/CodingsTreatments.png" alt="HTML5 Icon" style="width:612px;height:312px;"></p>
 
 ## Use outside of crystallization experiments
 These expendable designs can be adapted to other biochemical experiments involving aqueous solutions where water is the dominant component.
