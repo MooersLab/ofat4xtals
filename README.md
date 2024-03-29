@@ -14,14 +14,14 @@ You know that you have found the optimal conditions when replica drops return a 
 With these optimal conditions, you can generate hundreds of large crystals for the purpose of finding favorable cryo conditions and for the purpose of doing ligging soaks and heavy atom soaks.
 The highly reproducible nature of crystallization results is one of the strengths of protein crystallography as an experimental method.
 
-Workers who report difficulty reproducing crystals likely found their crystals on the steep slope of the response surface below the peak of optimal conditions.
+Workers who report difficulty reproducing crystals likely found them on the steep slope of the response surface below the peak of optimal conditions.
 On the steep slope of the response surface, the factors very rapidly and are difficult to reproduce.
-The gradients in the factors are close to zero at the peak which explains why the peak conditions are reproducible.
+In contrast, the gradients in the factors are close to zero at the peak which explains why the peak conditions are reproducible.
 
 
 ## What are OFAT experiments
 These OFAT experiments involve holding all factors constant except for one while it is varied over several factor levels. 
-We recommend starting the variation at 0 so that one can also test whether the presence or absence of a factor influences crystal growth. 
+We recommend starting the variation at 0 to test whether a factor's presence or absence influences crystal growth. 
 We also recommend using four factor levels, including the zero level, so that the three points with the factor present can be used to assess whether the response is linear or curvilinear.
 
 Most factors are expected to have a concave curvilinear effect on the crystallization of biological molecules.
@@ -36,7 +36,7 @@ You may propagate your lead when testing factors that do not influence crystalli
 This might be a side benefit if the crystallization conditions are close to the optimum.
 
 These OFAT experiments are a horrible way to find the optimal conditions when serially applying them.
-They should probably be limited to the initial expiration of a factor's nature in terms of whether its presence has an effect and in terms of detecting a curvilinear response.
+They should be limited to exploring a factor's nature in terms of whether its presence has an effect and detecting a curvilinear response.
 This information can then be used to select the factors and their levels in full factorial, incomplete factorial, or optimal experimental designs.
 These latter designs can detect at least two-way interactions in addition to quadratic responses.
 
@@ -56,7 +56,7 @@ These are the main sources of variation in the final volumes rather than pipetti
 
 The treatments within the replicas are randomly assigned.
 Each of those experiments is treated as an independent experiment, so there is no randomization across the experiments.
-This latter feature eases the setting up of the crystallization solutions within a 05 experiment because only the volume of one factor and the volume of the water are being varied.
+This latter feature eases the setting up of the crystallization solutions within a OFAT experiment because only the volume of one factor and the volume of the water vary.
 
 The protocol for re-randomization of the treatment is as follows:
 
@@ -70,3 +70,10 @@ It takes about 3 minutes to edit a spreadsheet to customize it for a new crystal
 These spreadsheets ease applying OFATs in laboratory experiments.
 These spreadsheets could also be adapted to other laboratory and field experiments.
 If you need a design with a run configuration different from a 4 x 6 array, please post an issue.
+
+## Use outside of crystallization experiments
+These expendable designs can be adapted to other biochemical experiments involving aqueous solutions where water is the dominant component.
+When water is not the dominant component, experimental designs for mixtures must be used.
+One could also envision adapting these experimental designs to computer experiments where the results are stochastic in nature.
+
+
