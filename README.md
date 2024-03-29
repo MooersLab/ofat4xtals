@@ -47,7 +47,7 @@ These latter designs can detect at least two-way interactions in addition to qua
 The typical practice is not to create replica crystallization experiments to save time and expensive samples.
 That is, the standard practice is to do exploratory trials rather than statistically valid experiments that return an assessment of the variation.
 
-These spreadsheets contain replica OFAT experiments to assess the variation in the results.
+Some of these spreadsheets contain replica OFAT experiments to assess the variation in the results.
 The sources of the variation include stochastic errors outside the experimenter's control and systematic experimental errors associated with assembly of the stock solutions and dispensing them.
 
 While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation.
@@ -66,7 +66,7 @@ In the case of no replicas, the columns are labeled by the factor being varied.
 
 
 **Randomized:**
-<p align="center"><img src="./images/Randomized6facotors.png" alt="HTML5 Icon" style="width:600px;"></p>
+<p align="center"><img src="./images/Randomized6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
 
 
 The treatments within the replicas are randomly assigned.
