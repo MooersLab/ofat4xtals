@@ -61,7 +61,7 @@ The treatments within the replicas are randomly assigned.
 Each of those experiments is treated as an independent experiment, so there is no randomization across the experiments.
 This latter feature eases the setting up of the crystallization solutions within a OFAT experiment because only the volume of one factor and the volume of the water vary.
 
-The protocol for re-randomization of the treatments in experiment with no replica is as follows:
+The protocol for re-randomization of the treatments in an experiment with no replica is as follows:
 
 - Select cells C6 to P1
 - Go to sort pulldown
@@ -77,7 +77,7 @@ The protocol for re-randomization of the treatments in experiment with no replic
 It takes about 3 minutes to edit a spreadsheet to customize it for a new crystallization experiment.
 The cells shaded light gray require editing.
 
-<p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:1000px;"></p>
+<p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:400px;"></p>
 
 
 These spreadsheets ease applying OFATs in laboratory experiments.
