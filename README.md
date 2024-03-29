@@ -61,15 +61,25 @@ The treatments within the replicas are randomly assigned.
 Each of those experiments is treated as an independent experiment, so there is no randomization across the experiments.
 This latter feature eases the setting up of the crystallization solutions within a OFAT experiment because only the volume of one factor and the volume of the water vary.
 
-The protocol for re-randomization of the treatment is as follows:
+The protocol for re-randomization of the treatments in experiment with no replica is as follows:
 
--
--
--
+- Select cells C6 to P1
+- Go to sort pulldown
+- Select <Custom Sort>
+- Sort on <random> column.
+- Repeat by selecting C11 to P14.
+- Custom sort on column C.
+- Repeat by selecting C15 to P18. Custom sort column C and so on.
+
 
 
 ## Customizing the design for your experiment
 It takes about 3 minutes to edit a spreadsheet to customize it for a new crystallization experiment.
+The cells shaded light gray require editing.
+
+<p align="center"><img src="./images/words6.png" alt="HTML5 Icon" style="width:612px;height:312px;"></p>
+
+
 These spreadsheets ease applying OFATs in laboratory experiments.
 These spreadsheets could also be adapted to other laboratory and field experiments.
 If you need a design with a run configuration different from a 4 x 6 array, please post an issue.
