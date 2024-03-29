@@ -77,7 +77,7 @@ The protocol for re-randomization of the treatments in experiment with no replic
 It takes about 3 minutes to edit a spreadsheet to customize it for a new crystallization experiment.
 The cells shaded light gray require editing.
 
-<p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:612px;height:312px;"></p>
+<p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
 
 These spreadsheets ease applying OFATs in laboratory experiments.
