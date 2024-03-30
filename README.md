@@ -104,10 +104,10 @@ This is a greener approach to crystallization experiments.
 This approach also allows you to reuse the crystallization tray because you are not withdrawing components from the reservoir solution that may not truly be RNase-free despite your efforts to clean out the reservoir between uses.
 The recycling of crystallization plates saves money and reduces plastic waste.
 
-If you are making the reservoir solutions according to the standard protein crystallization practice, you can change the volume to 1,000 microliters.
-You can actually use 350 microliters because this volume is sufficient to cover the bottom of a standard 24-well crystallization plate.
+If you make the reservoir solutions according to the standard protein crystallization practice, you can change the volume to 1,000 microliters.
+You can actually use 350 microliters, which is sufficient to cover the bottom of a standard 24-well crystallization plate.
 The surface area of the reservoir solution matters, not its volume.
-You could change the volume from 100 microliters to 15,000 or 50,000 microliters if you want to make stock solutions for 15 mL or 50 mL Falcon tubes.
+If you want to make stock solutions for 15 mL or 50 mL Falcon tubes, you could change the volume from 100 microliters to 15,000 or 50,000 microliters.
 
 
 
@@ -126,10 +126,12 @@ This matrix has five continuous factors and one categorical factor.
 In this case, the categorical factor is the buffer's identity.
 The buffer identity has to be entered by hand in column AR.
 
-In a mini-screen setup, the reservoir's crystallization and precipitant solution are independent.
+The reservoir's crystallization and precipitant solution are independent in a mini-screen setup.
 You can set up a factor that is the concentration of the precipitating agent in the reservoir solution.
-This is often as active factor with a quadratic effect on crystal size.
-
+This is often an active factor with a quadratic effect on crystal size.
+This factor should always be varied. 
+In the case shown here, we can make a second copy of the worksheet and vary the precipitant concentration in column 1 of a second tray.
+If you have a smaller number of chemical components in the solution for your crystallization lead and you are using the mini screen approach, you can use one of the unneeded columns for the precipitating agent in the reservoir.
 
 
 
