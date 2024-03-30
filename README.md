@@ -6,7 +6,8 @@
 
 ## Purpose
 This repository contains Excel spreadsheets for applying OFAT Designs (OFATs) to the size optimization of crystals of biological macromolecules (proteins and nucleic acids).
-these spreadsheets can be adapted to other biochemical experiments as explained below.
+These designs for developed to be deployed in 4x6 24 well crystallization plates.
+These spreadsheets can be adapted to other biochemical experiments as explained below.
 They can also be adapted to stochastic computer experiments.
 
 Crystal size is generally proportional to its diffraction power, provided the crystal is not internally disordered and properly cryoprotected.
@@ -108,6 +109,9 @@ You can actually use 350 microliters because this volume is sufficient to cover 
 The surface area of the reservoir solution matters, not its volume.
 You could change the volume from 100 microliters to 15,000 or 50,000 microliters if you want to make stock solutions for 15 mL or 50 mL Falcon tubes.
 
+
+
+
 <p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:400px;"></p>
 
 
@@ -118,6 +122,16 @@ If you need a design with a run configuration different from a 4 x 6 array, plea
 ## Codings and treatments
 
 A design matrix with the codings of the factor levels is applied to the user-entered concentration ranges.
+This matrix has five continuous factors and one categorical factor.
+In this case, the categorical factor is the buffer's identity.
+The buffer identity has to be entered by hand in column AR.
+
+In a mini-screen setup, the reservoir's crystallization and precipitant solution are independent.
+You can set up a factor that is the concentration of the precipitating agent in the reservoir solution.
+This is often as active factor with a quadratic effect on crystal size.
+
+
+
 
 <p align="center"><img src="./images/CodingsTreatments.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
