@@ -14,8 +14,8 @@ Crystallographers seek large crystals to obtain high-resolution data for high-qu
 
 The growth of large protein crystals is highly reproducible when near the optimal conditions.
 You know that you have found the optimal conditions when replica drops return a single large crystal per drop.
-With these optimal conditions, you can generate hundreds of large crystals for the purpose of finding favorable cryo conditions and for the purpose of doing ligging soaks and heavy atom soaks.
-The highly reproducible nature of crystallization results is one of the strengths of protein crystallography as an experimental method.
+With these optimal conditions, you can generate hundreds of large crystals for the purpose of finding favorable cryo conditions and for the purpose of doing ligand soaks and heavy atom soaks.
+One of the strengths of protein crystallography as an experimental system is the highly reproducible nature of crystallization results.
 
 Workers who report difficulty reproducing crystals likely found them on the steep slope of the response surface below the peak of optimal conditions.
 On the steep slope of the response surface, the factors very rapidly and are difficult to reproduce.
@@ -25,7 +25,7 @@ In contrast, the gradients in the factors are close to zero at the peak which ex
 ## What are OFAT experiments
 These OFAT experiments involve holding all factors constant except for one while it is varied over several factor levels. 
 We recommend starting the variation at 0 to test whether a factor's presence or absence influences crystal growth. 
-We also recommend using four factor-levels, including the zero level, so that the three points with the factor present can be used to assess whether the response is linear or curvilinear.
+We also recommend using four factor levels, including the zero level, so that the three points with the factor present can be used to assess whether the response is linear or curvilinear.
 
 Most factors are expected to have a concave curvilinear effect on the crystallization of biological molecules.
 The effect might appear linear if the range of tested factor levels is narrow.
@@ -48,18 +48,23 @@ The typical practice is not to create replica crystallization experiments to sav
 That is, the standard practice is to do exploratory trials rather than statistically valid experiments that return an assessment of the variation.
 
 Some of these spreadsheets contain replica OFAT experiments to assess the variation in the results.
-The sources of the variation include stochastic errors outside the experimenter's control and systematic experimental errors associated with assembly of the stock solutions and dispensing them.
+The sources of the variation include stochastic errors outside the experimenter's control and systematic experimental errors associated with assembling and dispensing the stock solutions.
 
-While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation.
+While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation (CV).
 It may be much higher than you expected.
+One popular robot has a CV of 5%; I was expecting a CV of 1%.
+The CV of manual pipetting is probably smaller than 5% if you minimize evaporative losses during the dispensing of the stock solutions.
 In addition, it can take about 12-20 hours of tedious editing of an input CSV file to read one of these designs by the liquid handling robot.
 
 Using a liquid handling robot once the csv file is in working order and can be used repeatedly after minor modification for each experimental design might yield some efficiencies.
 However, for small volumes, one has to worry about evaporative losses during the assembly of the solutions.
-These are the primary sources of variation in the final volumes rather than pipetting errors.
+These losses may be the primary sources of variation in the final volumes rather than pipetting errors.
 
 The spreadsheets are provided in pairs: treatments ordered and treatments randomized.
-In the case of no replicas, the columns are labeled by the factor being varied.
+In the case of no replicas, the columns are labeled by the varied factor.
+
+
+
 
 **Ordered:**
 <p align="center"><img src="./images/Ordered6factors.png" alt="HTML5 Icon" style="width:600px;"></p>
@@ -86,8 +91,22 @@ The protocol for re-randomization of the treatments in an experiment with no rep
 
 
 ## Customizing the design for your experiment
+
 It takes about 3 minutes to edit a spreadsheet to customize it for a new crystallization experiment.
 The cells shaded light gray require editing.
+
+Please note that we were setting up 100 microliter volumes using the mini-screen approach, which is popular in nucleic acid crystallography. 
+In this approach, the crystallization solution is mixed with the sample stock solution but not put in the reservoir, unlike the standard practice in protein crystallography.
+This approach minimizes using expensive and toxic chemicals in the crystallization solution.
+This is a greener approach to crystallization experiments.
+
+This approach also allows you to reuse the crystallization tray because you are not withdrawing components from the reservoir solution that may not truly be RNase-free despite your efforts to clean out the reservoir between uses.
+The recycling of crystallization plates saves money and reduces plastic waste.
+
+If you are making the reservoir solutions according to the standard protein crystallization practice, you can change the volume to 1,000 microliters.
+You can actually use 350 microliters because this volume is sufficient to cover the bottom of a standard 24-well crystallization plate.
+The surface area of the reservoir solution matters, not its volume.
+You could change the volume from 100 microliters to 15,000 or 50,000 microliters if you want to make stock solutions for 15 mL or 50 mL Falcon tubes.
 
 <p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:400px;"></p>
 
@@ -105,7 +124,7 @@ A design matrix with the codings of the factor levels is applied to the user-ent
 ## Autogenerated Recipes
 
 The recipes for each crystallization solution are automatically generated for continuously varying factors based on the user-supplied input.
-The recipes for categorical factors, like buffer identity, have to be entered by hand.
+The recipes for categorical factors, like buffer identity, must be entered by hand.
 The column on the left below is for a continuous factor.
 The column on the right is for a categorical factor.
 
