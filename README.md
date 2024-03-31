@@ -53,7 +53,7 @@ The sources of the variation include stochastic errors outside the experimenter'
 
 While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation (CV).
 It may be much higher than you expected.
-One popular robot has a CV of 5%; I was expecting a CV of 1%.
+One popular liquid handling robot has a CV of 5%; I was expecting a CV of 1%.
 The CV of manual pipetting is probably smaller than 5% if you minimize evaporative losses during the dispensing of the stock solutions.
 In addition, it can take about 12-20 hours of tedious editing of an input CSV file to read one of these designs by the liquid handling robot.
 
