@@ -6,7 +6,7 @@
 
 ## Purpose
 This repository contains Excel spreadsheets for applying OFAT Designs (OFATs) to the size optimization of crystals of biological macromolecules (proteins and nucleic acids).
-These designs for developed to be deployed in 4x6 24 well crystallization plates.
+These designs are developed to be deployed in 4x6 24-well crystallization plates.
 These spreadsheets can be adapted to other biochemical experiments as explained below.
 They can also be adapted to stochastic computer experiments.
 
@@ -15,7 +15,7 @@ Crystallographers seek large crystals to obtain high-resolution data for high-qu
 
 The growth of large protein crystals is highly reproducible when near the optimal conditions.
 You know that you have found the optimal conditions when replica drops return a single large crystal per drop.
-With these optimal conditions, you can generate hundreds of large crystals for the purpose of finding favorable cryo conditions and for the purpose of doing ligand soaks and heavy atom soaks.
+With these optimal conditions, you can generate hundreds of large crystals to find favorable cryo conditions and for ligand and heavy atom soaks.
 One of the strengths of protein crystallography as an experimental system is the highly reproducible nature of crystallization results.
 
 Workers who report difficulty reproducing crystals likely found them on the steep slope of the response surface below the peak of optimal conditions.
@@ -53,8 +53,8 @@ The sources of the variation include stochastic errors outside the experimenter'
 
 While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation (CV).
 It may be much higher than you expected.
-One popular liquid handling robot has a CV of 5%; I was expecting a CV of 1%.
-The CV of manual pipetting is probably smaller than 5% if you minimize evaporative losses during the dispensing of the stock solutions.
+One popular liquid-handling robot has a CV of 5%; I was expecting a CV of 1%.
+Your manual pipetting CV may be smaller than 5% if you minimize evaporative losses during the dispensing of the stock solutions.
 In addition, it can take about 12-20 hours of tedious editing of an input CSV file to read one of these designs by the liquid handling robot.
 
 Using a liquid handling robot once the csv file is in working order and can be used repeatedly after minor modification for each experimental design might yield some efficiencies.
@@ -105,8 +105,8 @@ This approach also allows you to reuse the crystallization tray because you are 
 The recycling of crystallization plates saves money and reduces plastic waste.
 
 If you make the reservoir solutions according to the standard protein crystallization practice, you can change the volume to 1,000 microliters.
-You can actually use 350 microliters, which is sufficient to cover the bottom of a standard 24-well crystallization plate.
-The surface area of the reservoir solution matters, not its volume.
+You can use 350 microliters, which is sufficient to cover the bottom of a standard 24-well crystallization plate.
+The surface area of the reservoir solution matters more than its volume.
 If you want to make stock solutions for 15 mL or 50 mL Falcon tubes, you could change the volume from 100 microliters to 15,000 or 50,000 microliters.
 
 
@@ -131,7 +131,10 @@ You can set up a factor that is the concentration of the precipitating agent in 
 This is often an active factor with a quadratic effect on crystal size.
 This factor should always be varied. 
 In the case shown here, we can make a second copy of the worksheet and vary the precipitant concentration in column 1 of a second tray.
-If you have a smaller number of chemical components in the solution for your crystallization lead and you are using the mini screen approach, you can use one of the unneeded columns for the precipitating agent in the reservoir.
+
+
+If the solution for your crystallization lead has fewer chemical components and you are using the mini screen approach, you can use one of the unneeded columns to vary the concentration of the precipitating agent in the reservoir.
+You can also use the unused columns for bearing physical parameters like drop size and the ratio of sample volume to crystallization solution volume.
 
 
 
