@@ -28,8 +28,8 @@ In contrast, the gradients in the factors are close to zero at the peak which ex
 - Support for randomization of the treatments within a factor.
 - User input is specified in the light gray-shaded cells.
 - Automated updating of all the required volumes.
-- The difference between the expected final volume and the sum of the non-water components to check to ensure that it is greater than 0.
-- The total volume of the aliquots for one crystallization solution is checked to ensure that it sums to the target volume.
+- The difference between the expected final volume and the sum of the non-water components to check to ensure that it is greater than 0. If the sum is negative, the cell will turn red.
+- The total volume of the aliquots for one crystallization solution is checked to ensure that it sums to the target volume. If the sum does not equal the target value, the cell will turn red.
 - The user is free to specify the total volume, this is not hardwired.
 - The total volume of aliquots for each stock solution is summed across all 24 wells so that the user knows in advance what volume of stock solution they will need for each required stock solution. They can compare these volumes to the available stocks to determine if they need to make new solutions. They should use only the new solutions rather than stock solutions of two different ages prepared at different times because this could be a source of experimental variability.
 - A table of the assigned treatments to the crystallization tray after randomization can also be used to record observations of the crystallization drops.
