@@ -45,7 +45,7 @@ This information can then be used to select the factors and their levels in full
 These latter designs can detect at least two-way interactions in addition to quadratic responses.
 
 ## Replication and randomization
-The typical practice is not to create replica crystallization experiments to save time and expensive samples.
+The typical practice is to avoid creating replica crystallization experiments to save time and expensive samples.
 That is, the standard practice is to do exploratory trials rather than statistically valid experiments that return an assessment of the variation.
 
 Some of these spreadsheets contain replica OFAT experiments to assess the variation in the results.
@@ -54,7 +54,7 @@ The sources of the variation include stochastic errors outside the experimenter'
 While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation (CV).
 It may be much higher than you expected.
 One popular liquid-handling robot has a CV of 5%; I was expecting a CV of 1%.
-Your manual pipetting CV may be smaller than 5% if you minimize evaporative losses during the dispensing of the stock solutions.
+Your manual pipetting CV may be less than 5% if you minimize evaporative losses during the stock solution dispensing.
 In addition, it can take about 12-20 hours of tedious editing of an input CSV file to read one of these designs by the liquid handling robot.
 
 Using a liquid handling robot once the csv file is in working order and can be used repeatedly after minor modification for each experimental design might yield some efficiencies.
@@ -115,7 +115,7 @@ If you want to make stock solutions for 15 mL or 50 mL Falcon tubes, you could c
 <p align="center"><img src="./images/UserEdits.png" alt="HTML5 Icon" style="width:400px;"></p>
 
 
-These spreadsheets ease applying OFATs in laboratory experiments.
+The spreadsheet makes it easy to apply OFATs in laboratory experiments.
 These spreadsheets could also be adapted to other laboratory and field experiments.
 If you need a design with a run configuration different from a 4 x 6 array, please post an issue.
 
@@ -133,8 +133,8 @@ This factor should always be varied.
 In the case shown here, we can make a second copy of the worksheet and vary the precipitant concentration in column 1 of a second tray.
 
 
-If the solution for your crystallization lead has fewer chemical components and you are using the mini screen approach, you can use one of the unneeded columns to vary the concentration of the precipitating agent in the reservoir.
-You can also use the unused columns for bearing physical parameters like drop size and the ratio of sample volume to crystallization solution volume.
+If the solution for your crystallization lead has fewer chemical components and you use the mini-screen approach, you can use one of the unneeded columns to vary the concentration of the precipitating agent in the reservoir.
+You can also use the unused columns for bearing physical parameters like drop size and sample volume ratio to crystallization solution volume.
 
 
 
@@ -156,7 +156,7 @@ One 6 x 4 experiment will require three laboratory notebook pages.
 These experimental designs can be adapted to other biochemical experiments involving aqueous solutions where water is the dominant molar component.
 When water is not the dominant component in a mixture, experimental designs for mixtures must be used.
 
-One could also envision adapting these experimental designs to computer experiments where the results are stochastic in nature.
+One could also envision adapting these experimental designs to computer experiments where the results are stochastic.
 
 ## Sources of funding
 
