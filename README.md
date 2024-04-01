@@ -63,11 +63,9 @@ The treatments within a factor should be randomly assigned.
 Each of those experiments is treated as an independent experiment, so there is no randomization across the experiments.
 This latter feature eases the setting up of the crystallization solutions within an OFAT experiment because only the volume of one factor and the volume of the water vary.
 
-
-
 The protocol for re-randomization of the treatments in an experiment with no replica is as follows:
 
-- Select cells C6 to P1
+- Select cells C6 to P11
 - Go to sort pulldown
 - Select <Custom Sort>
 - Sort on <random> column.
@@ -75,13 +73,18 @@ The protocol for re-randomization of the treatments in an experiment with no rep
 - Custom sort on column C.
 - Repeat by selecting C15 to P18. Custom sort column C and so on.
 
+To aid in interpreting the results, you can enter them in the column to the right of the table that contains the coatings and factor levels. 
+Then, you can resort to the columns by treatment by selecting D6 to P10 and sorting on the treatment column.
+Repeat five more times for the other factors.
+The reordered table will be much easier to interpret when detecting whether the trends are linear or curvilinear with increasing factor levels.
+
 
 ## Liquid handling robot
 
 While you might be tempted to feed these designs into a liquid-handling robot, you should look into the robots' coefficients of variation (CV).
 It may be much higher than you expected.
 One popular liquid-handling robot has a CV of 5%; I was expecting a CV of 1%.
-Your manual pipetting CV may be less than 2% if you minimize evaporative losses during dispensing of the stock solution.
+Your manual pipetting CV may be less than 2% if you minimize evaporative losses during the dispensing of the stock solution.
 In addition, it can take about 12-20 hours of tedious editing of an input CSV file to read one of these designs by the liquid handling robot.
 
 Using a liquid handling robot once the csv file is in working order and can be used repeatedly after minor modification for each experimental design might yield some efficiencies.
@@ -100,7 +103,7 @@ In this approach, the crystallization solution is mixed with the sample stock so
 This approach minimizes using expensive and toxic chemicals in the crystallization solution.
 This is a greener approach to crystallization experiments.
 
-This approach also allows you to reuse the crystallization tray because you are not withdrawing components from the reservoir solution that may not truly be RNase-free despite your efforts to clean out the reservoir between uses.
+This approach also allows you to reuse the crystallization tray because you are not withdrawing components from the reservoir solution that may not be RNase-free despite your efforts to clean the reservoir between uses.
 The recycling of crystallization plates saves money and reduces plastic waste.
 
 If you make the reservoir solutions according to the standard protein crystallization practice, you can change the volume to 1,000 microliters.
@@ -185,4 +188,7 @@ One could also envision adapting these experimental designs to computer experime
 
 ## Sources of funding
 
-- NIH: R01 CA242845, R01 AI088011; P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
+- NIH: R01 CA242845
+- NIH: R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel)
+- NIH P20GM103640 and P30GM145423 (PI: A. West)
