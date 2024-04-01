@@ -132,9 +132,17 @@ This is often an active factor with a quadratic effect on crystal size.
 This factor should always be varied. 
 In the case shown here, we can make a second copy of the worksheet and vary the precipitant concentration in column 1 of a second tray.
 
+## What if you have fewer than six chemical factors?
+If the solution for your crystallization lead has fewer than six chemical components and you use the mini-screen approach, you can use one of the unneeded columns to vary the concentration of the precipitating agent in the reservoir.
+You can also use the unused columns for testing physical parameters like drop size and sample volume ratio to crystallization solution volume.
 
-If the solution for your crystallization lead has fewer chemical components and you use the mini-screen approach, you can use one of the unneeded columns to vary the concentration of the precipitating agent in the reservoir.
-You can also use the unused columns for bearing physical parameters like drop size and sample volume ratio to crystallization solution volume.
+you can also use an unused column for the purpose of repeating one of the factors.
+this partial replication will provide some measure of the variability in your experiment.
+it would be better to do replica experiments.
+you can set up a replica tray with a different randomization of the treatments within each column.
+
+A more rigorous approach would be to have the replica columns adjacent to each other and randomize the treatments within this column and row block.
+We are working on spreadsheets that will support the presence of one, two, or three replicas, with the replica columns grouped together.
 
 
 
@@ -151,6 +159,24 @@ The column on the right is for a categorical factor.
 
 Pairs of columns can be selected in Excel and fit to the page for printing. 
 One 6 x 4 experiment will require three laboratory notebook pages.
+
+## Printing the design
+
+Invariably, you will want to print out the workbook for the purpose of pasting it into a laboratory notebook.
+The printing of all the components of the spreadsheet requires the setting of several print areas within Excel.
+It takes about 10 to 20 minutes to carry out this task so allow sufficient time.
+
+This is the protocol that we use:
+
+- Select the table or tables that you want to print on a page
+- Under the file pulled down select Print Area/Set Print Area
+- Select print. in the print dialog, select portrait mode and scale to page
+- Click on the blue Print button after selecting the appropriate printer
+- Under the file pulled down, select Print Area/Clear Print Area
+- Repeat the cycle.
+
+The workbook can probably be printed from other software that can read Excel files (e.g., Libre Office, Open Office, Numbers), following a similar protocol.
+  
 
 ## Use outside of crystallization experiments
 These experimental designs can be adapted to other biochemical experiments involving aqueous solutions where water is the dominant molar component.
