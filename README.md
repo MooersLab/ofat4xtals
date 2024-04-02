@@ -1,4 +1,4 @@
-# Varying One-Factor-at-a-Time (OFAT) Experimental Designs
+# Varying One-Factor-at-a-Time (OFAT) Experimental Designs for Crystal Growth
 
 ![Version](https://img.shields.io/static/v1?label=ofat4xtals&message=0.2&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
