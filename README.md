@@ -6,6 +6,9 @@
 
 ## Purpose
 This repository contains Excel spreadsheets for applying OFAT Designs (OFATs) to the size optimization of crystals of biological macromolecules (proteins and nucleic acids).
+See the list below of features. 
+These include several automated steps that ease the use of these spreadsheets and accelerate the analysis of results.
+
 These designs are developed to be deployed in 4x6 24-well crystallization plates.
 These spreadsheets can be adapted to other biochemical experiments as explained below.
 They can also be adapted to stochastic computer experiments.
