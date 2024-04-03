@@ -244,7 +244,7 @@ This pair of plots shows a quadratic response.
 The optimal response is near the peak of this curve for this factor.
 Most factors are expected to get this kind of response.
 
-<p align="center"><img src="./images/chemicalE.png" alt="HTML5 Icon" style="width:1000px;"></p>
+<p align="center"><img src="./images/ChemicalE.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
 
 ### Quadratic response
