@@ -41,6 +41,20 @@ In contrast, the gradients in the factors are close to zero at the peak which ex
 
 ## What are OFAT experiments?
 These OFAT experiments involve holding all factors constant except for one while it is varied over several factor levels. 
+
+
+### Advantages of OFAT experiments
+
+- Requires less mental effort is required to interpret the results
+- Not guarenteed to find the optimium via use in serial epxeriments to search for the optimium.
+
+### Disadvantage of OFAT experiments
+
+- Cannot detect factors that interact.
+- Require more samples for the same level of precision compared to more advanced experimental designs.
+- Experimental error must be smaller than the factor effects.
+
+
 We recommend starting the variation at 0 to test whether a factor's presence or absence influences crystal growth. 
 Here, we test four levels of each factor, including the zero factor level, so that the three points with the factor present can be used to assess whether the response is linear or curvilinear.
 
