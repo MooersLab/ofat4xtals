@@ -89,7 +89,7 @@ The protocol for re-randomization of the treatments in an experiment with no rep
 - Custom sort on column C.
 - Repeat by selecting C15 to P18. Custom sort column C and so on.
 
-To aid in interpreting the results, you can enter them in the column to the right of the table that contains the coatings and factor levels. 
+To help interpret the results, you can enter them in the column to the right of the table containing the coatings and factor levels. 
 Then, you can resort to the columns by treatment by selecting D6 to P10 and sorting on the treatment column.
 Repeat five more times for the other factors.
 The reordered table will be much easier to interpret when detecting whether the trends are linear or curvilinear with increasing factor levels.
