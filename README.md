@@ -244,7 +244,7 @@ This pair of plots shows a quadratic response.
 The optimal response is near the peak of this curve for this factor.
 Most factors are expected to get this kind of response.
 
-<p align="center"><img src="./images/ChemicalE.png" alt="HTML5 Icon" style="width:1000px;"></p>
+<p align="center"><img src="./images/chmeicalE.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
 
 ### Quadratic response
@@ -258,9 +258,9 @@ These results can lead to the design of a better crystallization experiment.
 
 ## Printing the design
 
-Invariably, you will want to print out the workbook for the purpose of pasting it into a laboratory notebook.
+Invariably, you will want to print and paste the worksheet into a laboratory notebook.
 The printing of all the components of the spreadsheet requires the setting of several print areas within Excel.
-It takes about 10 to 20 minutes to carry out this task so allow sufficient time.
+It takes about 10 to 20 minutes to complete this task so allow sufficient time.
 
 This is the protocol that we use:
 
@@ -271,7 +271,7 @@ This is the protocol that we use:
 - Under the file pulled down, select Print Area/Clear Print Area
 - Repeat the cycle.
 
-The workbook can probably be printed from other software that can read Excel files (e.g., Libre Office, Open Office, Numbers), following a similar protocol.
+The workbook can be printed from other software that can read Excel files (e.g., Libre Office, Open Office, Numbers), following a similar protocol.
   
 
 ## Use outside of crystallization experiments
