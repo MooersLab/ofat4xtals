@@ -1,6 +1,6 @@
 # Varying One-Factor-at-a-Time (OFAT) Experimental Designs for Crystal Growth
 
-![Version](https://img.shields.io/static/v1?label=ofat4xtals&message=0.3&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=ofat4xtals&message=0.4&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -287,6 +287,15 @@ These experimental designs can be adapted to other biochemical experiments invol
 When water is not the dominant component in a mixture, experimental designs for mixtures must be used.
 
 One could also envision adapting these experimental designs to computer experiments where the results are stochastic.
+
+## Update History
+
+|Version      | Changes                             | Date            |
+|:-----------:|:-----------------------------------:|:---------------:|
+| Version 0.1 | Initiated.       | 2024 April 1 |
+| Version 0.2 |  Working version   | 2024 April 2    |
+| Version 0.3 |  Version with plots  | 2024 April 3    |
+| Version 0.4 |  Fixed leftmost column of design matrix.  | 2024 April 5    |
 
 ## Sources of funding
 
