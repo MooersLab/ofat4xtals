@@ -234,10 +234,10 @@ is a decrease in the response with increasing factor level.
 
 <p align="center"><img src="./images/ChemicalB.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
-### Response negatively correlated with factor level
+### U-shaped response
 
 This pair of plots demonstrates a U-shaped response to the increasing factor level.
-This kind of response reflects a salting in and salting out effect.
+This kind of response reflects a salting-out and then salting-in effect.
 
 <p align="center"><img src="./images/chemicalC.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
@@ -246,7 +246,8 @@ This kind of response reflects a salting in and salting out effect.
 This pair of plots shows a response that increases linearly with increasing factor levels.
 The factor levels may be from the rising shoulder of a quadratic response curve.
 
-<p align="center"><img src="./images/chemicalD.png" alt="HTML5 Icon" style="width:1000px;"></p>
+<p align="center"><img src="./images/chmeicalE.png" alt="HTML5 Icon" style="width:1000px;"></p>
+
 
 ### Quadratic response
 
@@ -254,8 +255,8 @@ This pair of plots shows a quadratic response.
 The optimal response is near the peak of this curve for this factor.
 Most factors are expected to get this kind of response.
 
-<p align="center"><img src="./images/chmeicalE.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
+<p align="center"><img src="./images/chemicalD.png" alt="HTML5 Icon" style="width:1000px;"></p>
 
 ### No lengths to measure
 
